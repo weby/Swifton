@@ -42,6 +42,34 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_OperatingSystem"
+               BuildableName = "libOperatingSystem.dylib"
+               BlueprintName = "OperatingSystem"
+               ReferencedContainer = "container:Swifton.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "______Target_String"
+               BuildableName = "libString.dylib"
+               BlueprintName = "String"
+               ReferencedContainer = "container:Swifton.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "______Target_Nest"
                BuildableName = "libNest.dylib"
                BlueprintName = "Nest"
