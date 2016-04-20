@@ -36,7 +36,7 @@ public class MemoryModel: HTMLRenderable, JSONRenderable, Equatable {
     public static func find(id: String?) -> MemoryModel? {
         guard let stringID = id else { return nil }
         guard let intID = Int(stringID) else { return nil }
-        return find(intID)
+        return find(id: intID)
     }
 
     public static func find(id: Int?) -> MemoryModel? {
@@ -68,7 +68,7 @@ public class MemoryModel: HTMLRenderable, JSONRenderable, Equatable {
         self.attributes = MemoryModel.resolveAttributes(attributes)
     }
 
-    static func resolveAttributes(attributes: [String: String]) -> [String: Any] {
+    static func resolveAttributes(_ attributes: [String: String]) -> [String: Any] {
         var attrs = [String: Any]()
         for (key, value) in attributes {
             if let integer: Int = Int(value) {

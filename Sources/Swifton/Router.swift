@@ -34,37 +34,37 @@ public class Router {
         patch(name + "/{id}", controller["update"])
     }
 
-    public func delete(uri: String, _ action: Action) {
+    public func delete(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .delete, action))
     }
 
-    public func get(uri: String, _ action: Action) {
+    public func get(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .get, action))
     }
 
-    public func head(uri: String, _ action: Action) {
+    public func head(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .head, action))
     }
 
-    public func patch(uri: String, _ action: Action) {
+    public func patch(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .patch, action))
     }
 
-    public func post(uri: String, _ action: Action) {
+    public func post(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .post, action))
     }
 
-    public func put(uri: String, _ action: Action) {
+    public func put(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .put, action))
     }
 
-    public func options(uri: String, _ action: Action) {
+    public func options(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .options, action))
     }
 
-    public func respond(request: Request) -> Response {
-        return ParametersMiddleware().call(request) {
-          CookiesMiddleware().call($0, self.resolveRoute)
+    public func respond(to request: Request) -> Response {
+        return ParametersMiddleware().call(request: request) {
+          CookiesMiddleware().call(request: $0, self.resolveRoute)
         }
     }
 
@@ -73,7 +73,7 @@ public class Router {
 
         for (template, method, handler) in routes {
             if newRequest.method == method {
-                if let variables = template.extract(newRequest.uri.path!) {
+                if let variables = template.extract(url: newRequest.uri.path!) {
                     for (key, value) in variables {
                         newRequest.params[key] = value
                     }
@@ -82,11 +82,11 @@ public class Router {
             }
         }
 
-        if let staticFile = serveStaticFile(newRequest) {
+        if let staticFile = serveStaticFile(request: newRequest) {
             return staticFile
         }
 
-        return notFound(newRequest)
+        return notFound(request: newRequest)
     }
 
     func serveStaticFile(request: Request) -> Response? {
@@ -102,10 +102,10 @@ public class Router {
                                 return Response(status: .ok, contentType: .Plain, body: body)
                             }
                         } catch {
-                            return errorReadingFromFile(request)
+                            return errorReadingFromFile(request: request)
                         }
                     } else {
-                        return permissionDenied(request)
+                        return permissionDenied(request: request)
                     }
                 }
             }

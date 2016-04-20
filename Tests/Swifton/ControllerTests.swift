@@ -27,7 +27,7 @@ class ControllerTests: XCTestCase {
 
         Controller.applicationController = TestApplicationController()
         TestModel.reset()
-        TestModel.create([
+        TestModel.create(attributes: [
             "name": "Saulius",
             "surname": "Grigaitis"
         ])
@@ -58,13 +58,13 @@ class ControllerTests: XCTestCase {
     }
 
     func testRenderHtmlCollection() {
-        TestModel.create(["name": "James", "surname": "Bond"])
+        TestModel.create(attributes: ["name": "James", "surname": "Bond"])
         let rendered = controller["index"](request: request)
         XCTAssertEqual(rendered.bodyString, "\nSaulius\n\nJames\n\n\n")
     }
 
     func testRenderJsonCollection() {
-        TestModel.create(["name": "James", "surname": "Bond"])
+        TestModel.create(attributes: ["name": "James", "surname": "Bond"])
         let request = createRequest(headers: ["Accept": "application/json"])
         let rendered = controller["index"](request: request)
 
@@ -83,7 +83,7 @@ class ControllerTests: XCTestCase {
     }
 
     func testRenderHtmlSingleModelWithUTF8() {
-        TestModel.create(["name": "ąčęėį"])
+        TestModel.create(attributes: ["name": "ąčęėį"])
         request.params = ["id": "2"]
         let rendered = controller["show"](request: request)
         XCTAssertEqual(rendered.bodyString, "ąčęėį\n")
@@ -96,7 +96,7 @@ class ControllerTests: XCTestCase {
 
     func testPostRequestToCreateRecord() {
         controller["create"](request: postRequest)
-        let record = TestModel.find(2)!
+        let record = TestModel.find(id: 2)!
         XCTAssertEqual(String(record["name"]!), "James")
         XCTAssertEqual(String(record["surname"]!), "Bond")
     }

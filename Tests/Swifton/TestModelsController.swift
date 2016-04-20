@@ -13,7 +13,7 @@ class TestModelsController: TestApplicationController {
         let testModels = ["testModels": TestModel.allAttributes()]
         return respondTo(request, [
             "html": { render("TestModels/Index", testModels) },
-            "json": { renderJSON(testModels) }
+            "json": { renderJSON(context: testModels) }
         ])
     }
 
@@ -30,22 +30,22 @@ class TestModelsController: TestApplicationController {
     }
 
     action("create") { request in
-        TestModel.create(request.params)
-        return redirectTo("/testModels")
+        TestModel.create(attributes: request.params)
+        return redirectTo(path: "/testModels")
     }
 
     action("update") { request in
-        self.testModel!.update(request.params)
-        return redirectTo("/testModels/\(self.testModel!.id)")
+        self.testModel!.update(attributes: request.params)
+        return redirectTo(path: "/testModels/\(self.testModel!.id)")
     }
 
     action("destroy") { request in
-        TestModel.destroy(self.testModel)
-        return redirectTo("/testModels")
+        TestModel.destroy(model: self.testModel)
+        return redirectTo(path: "/testModels")
     }
 
     filter("setTestModel") { request in
-        guard let t = TestModel.find(request.params["id"]) else { return redirectTo("/testModels") }
+        guard let t = TestModel.find(id: request.params["id"]) else { return redirectTo(path: "/testModels") }
         self.testModel = t as? TestModel
         return self.next
     }

@@ -8,7 +8,7 @@ public class ParametersMiddleware: CustomMiddleware {
         var queryString = ""
 
         if request.method == .get {
-            if let elements = request.uri.path?.split("?", maxSplits: 1) {
+            if let elements = request.uri.path?.split(separator: "?", maxSplits: 1) {
                 if let query = elements.last {
                     queryString = query
                 }
@@ -19,8 +19,8 @@ public class ParametersMiddleware: CustomMiddleware {
             }
         }
 
-        for keyValue in queryString.split("&") {
-            let tokens = keyValue.split("=", maxSplits: 1)
+        for keyValue in queryString.split(separator: "&") {
+            let tokens = keyValue.split(separator: "=", maxSplits: 1)
             if let name = tokens.first, value = tokens.last {
                 if let parsedName = try? String(percentEncoded: name),
                     let parsedValue = try? String(percentEncoded: value) {
@@ -29,7 +29,7 @@ public class ParametersMiddleware: CustomMiddleware {
             }
         }
 
-        newRequest.method = resolveMethod(newRequest)
+        newRequest.method = resolveMethod(request: newRequest)
         return closure(newRequest)
     }
 
