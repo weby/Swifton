@@ -15,3 +15,5 @@ script:
 - swift build
 - swift test
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then swiftlint; fi
+after_success:
+- bash <(curl -s https://codecov.io/bash)
