@@ -18,7 +18,7 @@ class MemoryModelTests: XCTestCase {
 
     override func setUp() {
         TestModel.all = [MemoryModel]()
-        record = TestModel.create(["name": "Saulius", "surname": "Grigaitis"])
+        record = TestModel.create(attributes: ["name": "Saulius", "surname": "Grigaitis"])
     }
 
     func testAddRecordToCollection() {
@@ -26,12 +26,12 @@ class MemoryModelTests: XCTestCase {
     }
 
     func testFindRecordByStringId() {
-        let expected = TestModel.find(String(record.id))
+        let expected = TestModel.find(id: String(record.id))
         XCTAssertEqual(record, expected)
     }
 
     func testFindRecordByIntId() {
-        let expected = TestModel.find(record.id)
+        let expected = TestModel.find(id: record.id)
         XCTAssertEqual(record, expected)
     }
 
@@ -41,13 +41,13 @@ class MemoryModelTests: XCTestCase {
     }
 
     func testUpdateRecord() {
-        record.update(["name": "James", "surname": "Bond"])
+        record.update(attributes: ["name": "James", "surname": "Bond"])
         XCTAssertEqual(String(record["name"]!), "James")
         XCTAssertEqual(String(record["surname"]!), "Bond")
     }
 
     func testDestroyRecord() {
-        TestModel.destroy(record)
+        TestModel.destroy(model: record)
         XCTAssertEqual(TestModel.all.count, 0)
     }
 

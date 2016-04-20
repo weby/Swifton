@@ -5,9 +5,9 @@ public class CookiesMiddleware: CustomMiddleware {
     public func call(request: Request, _ closure: Request -> Response) -> Response {
         var newRequest = request
         if let rawCookie = newRequest.headers["Cookie"].values.first {
-            let cookiePairs = rawCookie.split(";")
+            let cookiePairs = rawCookie.split(separator: ";")
             for cookie in cookiePairs {
-                let keyValue = cookie.split("=")
+                let keyValue = cookie.split(separator: "=")
                 newRequest.cookies[keyValue[0]] = keyValue[1]
             }
         }

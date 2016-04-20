@@ -18,11 +18,11 @@ public class Controller {
 
     public func controller() {}
 
-    public func action(name: String, body: Action) {
+    public func action(_ name: String, body: Action) {
         actions[name] = body
     }
 
-    public func filter(name: String, body: Filter) {
+    public func filter(_ name: String, body: Filter) {
         filters[name] = body
     }
 
@@ -52,7 +52,7 @@ public class Controller {
         }
     }
 
-    func runFilters(request: Request, _ actionName: String, _ filterCollection: FilterCollection) -> Response? {
+    func runFilters(_ request: Request, _ actionName: String, _ filterCollection: FilterCollection) -> Response? {
         for (filter, options) in filterCollection {
             // prefer filter in child controller
             if let selectedFilter = self.filters[filter] {
@@ -68,7 +68,7 @@ public class Controller {
         return nil
     }
 
-    func runFilter(filter: Filter, _ actionName: String, _ request: Request, _ options: FilterOptions) -> Response? {
+    func runFilter(_ filter: Filter, _ actionName: String, _ request: Request, _ options: FilterOptions) -> Response? {
         // if "only" option is used then check if action is in the list
         if let opts = options {
             if let skip = opts["skip"] {
@@ -96,7 +96,7 @@ public class Controller {
         return nil
     }
 
-    public func beforeAction(filter: String, _ options: FilterOptions = nil) -> Void {
+    public func beforeAction(_ filter: String, _ options: FilterOptions = nil) -> Void {
         beforeFilters[filter] = options
     }
 
@@ -105,12 +105,12 @@ public class Controller {
     }
 }
 
-public func render(template: String) -> Response {
+public func render(_ template: String) -> Response {
     let body = StencilView(template).render()
     return Response(status: .ok, contentType: .HTML, body: body)
 }
 
-public func render(template: String, _ object: HTMLRenderable?) -> Response {
+public func render(_ template: String, _ object: HTMLRenderable?) -> Response {
     var body: String
     if let obj = object {
         body = StencilView(template, obj.renderableAttributes()).render()
@@ -120,7 +120,7 @@ public func render(template: String, _ object: HTMLRenderable?) -> Response {
     return Response(status: .ok, contentType: .HTML, body: body)
 }
 
-public func render(template: String, _ context: [String: Any]) -> Response {
+public func render(_ template: String, _ context: [String: Any]) -> Response {
     let body = StencilView(template, context).render()
     return Response(status: .ok, contentType: .HTML, body: body)
 }
@@ -144,7 +144,7 @@ public func redirectTo(path: String) -> Response {
     return Response(status: .found, headers: ["Location": Header(path)])
 }
 
-public func respondTo(request: Request, _ responders: [String: () -> Response]) -> Response {
+public func respondTo(_ request: Request, _ responders: [String: () -> Response]) -> Response {
     let accepts = request.headers["Accept"].values
     for (accept, response) in responders {
         if accepts.contains(accept.mimeType()) {
