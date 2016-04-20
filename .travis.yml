@@ -16,4 +16,4 @@ script:
 - swift test
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then swiftlint; fi
 after_success:
-- bash <(curl -s https://codecov.io/bash)
+- bash <(curl -s https://codecov.io/bash) -J Swifton
