@@ -34,7 +34,7 @@ public class Router {
         patch(name + "/{id}", controller["update"])
     }
 
-    public func delete(uri: String, _ action: Action) {
+    public func delete(_ uri: String, _ action: Action) {
         routes.append((URITemplate(template: uri), .delete, action))
     }
 
