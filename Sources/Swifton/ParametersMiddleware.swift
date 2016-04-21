@@ -1,9 +1,9 @@
 import S4
 import String
 
-public class ParametersMiddleware: CustomMiddleware {
+public class ParametersMiddleware: Middleware {
 
-    public func call(request: Request, _ closure: Request -> Response) -> Response {
+    public func respond(to request: Request, chainingTo next: Responder) throws -> Response {
         var newRequest = request
         var queryString = ""
 
@@ -30,7 +30,7 @@ public class ParametersMiddleware: CustomMiddleware {
         }
 
         newRequest.method = resolveMethod(request: newRequest)
-        return closure(newRequest)
+        return try next.respond(to: newRequest)
     }
 
     func resolveMethod(request: Request) -> S4.Method {

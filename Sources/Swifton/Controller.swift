@@ -2,10 +2,11 @@ import S4
 
 public class Controller {
     public typealias Parameters = [String: String]
-    public typealias Action = (request: Request) -> Response
+    public typealias Action = Respond
     public typealias Filter = (request: Request) -> Response?
     public typealias FilterCollection = [String: FilterOptions]
     public typealias FilterOptions = [String: [String]]?
+
 
     public static var applicationController = Controller()
     var actions = [String: Action]()
@@ -28,7 +29,7 @@ public class Controller {
 
     public subscript(actionName: String) -> Action {
         get {
-            return { (request) in
+            return { request in
                 guard let action = self.actions[actionName] else {
                     return Response(status: .notFound, contentType: .Plain, body: "Action Not Found")
                 }
@@ -37,7 +38,7 @@ public class Controller {
                     return filterResponse
                 }
 
-                let response = action(request: request)
+                let response = try! action(to: request)
 
                 if let filterResponse = self.runFilters(request, actionName, self.afterFilters) {
                     return filterResponse

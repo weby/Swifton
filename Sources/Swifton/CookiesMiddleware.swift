@@ -1,9 +1,10 @@
 import S4
 
-public class CookiesMiddleware: CustomMiddleware {
+public class CookiesMiddleware: Middleware {
 
-    public func call(request: Request, _ closure: Request -> Response) -> Response {
+    public func respond(to request: Request, chainingTo next: Responder) throws -> Response {
         var newRequest = request
+
         if let rawCookie = newRequest.headers["Cookie"].values.first {
             let cookiePairs = rawCookie.split(separator: ";")
             for cookie in cookiePairs {
@@ -12,7 +13,7 @@ public class CookiesMiddleware: CustomMiddleware {
             }
         }
 
-        var response = closure(newRequest)
+        var response = try next.respond(to: newRequest)
         response.headers["Set-Cookie"] = Header(response.cookies.map { "\($0)=\($1)" }.joined(separator: ";"))
         return response
     }

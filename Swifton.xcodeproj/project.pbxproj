@@ -7,21 +7,93 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		14AC13871CC81C580008E5C9 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		14AC13881CC81C580008E5C9 /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
-		14AC13891CC81C580008E5C9 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		14AC138A1CC81C580008E5C9 /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
-		14AC138B1CC81C580008E5C9 /* libURITemplate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URITemplate" /* libURITemplate.dylib */; };
-		14AC138C1CC81C580008E5C9 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		14AC138D1CC81C580008E5C9 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		14AC138E1CC81C580008E5C9 /* libStencil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Stencil" /* libStencil.dylib */; };
+		149FA70B1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA70C1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA70D1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA70E1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA70F1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7101CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7111CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA7121CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA7131CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7141CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7151CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA7161CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA7171CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7181CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA7191CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA71A1CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA71B1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA71C1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA71D1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA71E1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA71F1CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA7201CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA7211CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7221CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		149FA7231CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7241CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA7251CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA7261CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7271CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA7281CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA7291CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA72A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		149FA72B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		149FA72C1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA72D1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA72E1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA72F1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA7301CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA7311CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA7321CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7331CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		149FA7341CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		149FA7351CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		149FA7361CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA7371CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA7381CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA7391CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA73A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		149FA73B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		149FA73C1CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		149FA73D1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
+		149FA73E1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
+		149FA73F1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA7401CC8524D0025C12F /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
+		149FA7411CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA7421CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7431CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		149FA7441CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		149FA7451CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		149FA7461CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		149FA7471CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		149FA7481CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		149FA7491CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		149FA74A1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
+		149FA74B1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
+		149FA74C1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		149FA74D1CC8524D0025C12F /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
+		149FA74E1CC8524D0025C12F /* libRouter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* libRouter.dylib */; };
+		149FA74F1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		149FA7501CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		149FA7511CC8524D0025C12F /* libStencil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Stencil" /* libStencil.dylib */; };
 		_LinkFileRef_C7 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		_LinkFileRef_CURIParser /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		_LinkFileRef_HTTP /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		_LinkFileRef_MediaType /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		_LinkFileRef_POSIXRegex /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
 		_LinkFileRef_PathKit /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
+		_LinkFileRef_PathParameterMiddleware /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		_LinkFileRef_RegexRouteMatcher /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
+		_LinkFileRef_Router /* libRouter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* libRouter.dylib */; };
 		_LinkFileRef_S4 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
 		_LinkFileRef_Stencil /* libStencil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Stencil" /* libStencil.dylib */; };
 		_LinkFileRef_String /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		_LinkFileRef_StructuredData /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
 		_LinkFileRef_Swifton /* libSwifton.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Swifton" /* libSwifton.dylib */; };
-		_LinkFileRef_URITemplate /* libURITemplate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URITemplate" /* libURITemplate.dylib */; };
+		_LinkFileRef_TrieRouteMatcher /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
+		_LinkFileRef_URI /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncConnection.swift" /* AsyncConnection.swift */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncHost.swift" /* AsyncHost.swift */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/AsyncStream.swift" /* AsyncStream.swift */; };
@@ -43,7 +115,23 @@
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */; };
+		"__src_cc_ref_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift */; };
+		"__src_cc_ref_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift */; };
 		"__src_cc_ref_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift */; };
+		"__src_cc_ref_Packages/PathParameterMiddleware-0.5.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PathParameterMiddleware-0.5.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */; };
+		"__src_cc_ref_Packages/RegexRouteMatcher-0.5.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/RegexRouteMatcher-0.5.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */; };
+		"__src_cc_ref_Packages/Router-0.5.0/Source/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Router-0.5.0/Source/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/Router-0.5.0/Source/RouterBuilder.swift" /* RouterBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Router-0.5.0/Source/RouterBuilder.swift" /* RouterBuilder.swift */; };
 		"__src_cc_ref_Packages/S4-0.4.0/Sources/AsyncClient.swift" /* AsyncClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncClient.swift" /* AsyncClient.swift */; };
 		"__src_cc_ref_Packages/S4-0.4.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift */; };
 		"__src_cc_ref_Packages/S4-0.4.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift */; };
@@ -83,7 +171,10 @@
 		"__src_cc_ref_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift */; };
 		"__src_cc_ref_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift */; };
 		"__src_cc_ref_Packages/String-0.5.0/Source/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/String-0.5.0/Source/String.swift" /* String.swift */; };
-		"__src_cc_ref_Packages/URITemplate-1.3.5/Sources/URITemplate.swift" /* URITemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/URITemplate-1.3.5/Sources/URITemplate.swift" /* URITemplate.swift */; };
+		"__src_cc_ref_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift */; };
+		"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift */; };
+		"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */; };
+		"__src_cc_ref_Packages/URI-0.5.0/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/URI-0.5.0/Sources/URI.swift" /* URI.swift */; };
 		__src_cc_ref_Sources/Swifton/Controller.swift /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Swifton/Controller.swift /* Controller.swift */; };
 		__src_cc_ref_Sources/Swifton/CookiesMiddleware.swift /* CookiesMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Swifton/CookiesMiddleware.swift /* CookiesMiddleware.swift */; };
 		__src_cc_ref_Sources/Swifton/CustomMiddleware.swift /* CustomMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = __PBXFileRef_Sources/Swifton/CustomMiddleware.swift /* CustomMiddleware.swift */; };
@@ -107,49 +198,112 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		14AC138F1CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7521CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathKit";
 			remoteInfo = PathKit;
 		};
-		14AC13901CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7531CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_C7";
 			remoteInfo = C7;
 		};
-		14AC13911CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7541CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = "______Target_URITemplate";
-			remoteInfo = URITemplate;
+			remoteGlobalIDString = "______Target_StructuredData";
+			remoteInfo = StructuredData;
 		};
-		14AC13921CC81C580008E5C9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = __RootObject_ /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "______Target_S4";
-			remoteInfo = S4;
-		};
-		14AC13931CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7551CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_String";
 			remoteInfo = String;
 		};
-		14AC13941CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7561CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_CURIParser";
+			remoteInfo = CURIParser;
+		};
+		149FA7571CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_S4";
+			remoteInfo = S4;
+		};
+		149FA7581CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_URI";
+			remoteInfo = URI;
+		};
+		149FA7591CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_MediaType";
+			remoteInfo = MediaType;
+		};
+		149FA75A1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_HTTP";
+			remoteInfo = HTTP;
+		};
+		149FA75B1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_PathParameterMiddleware";
+			remoteInfo = PathParameterMiddleware;
+		};
+		149FA75C1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_POSIXRegex";
+			remoteInfo = POSIXRegex;
+		};
+		149FA75D1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_TrieRouteMatcher";
+			remoteInfo = TrieRouteMatcher;
+		};
+		149FA75E1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_RegexRouteMatcher";
+			remoteInfo = RegexRouteMatcher;
+		};
+		149FA75F1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = __RootObject_ /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "______Target_Router";
+			remoteInfo = Router;
+		};
+		149FA7601CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Stencil";
 			remoteInfo = Stencil;
 		};
-		14AC13951CC81C580008E5C9 /* PBXContainerItemProxy */ = {
+		149FA7611CC8524E0025C12F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -181,7 +335,23 @@
 		"__PBXFileRef_Packages/C7-0.5.0/Sources/Time.swift" /* Time.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uri_parser.c; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedCookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValues.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/PathParameterMiddleware-0.5.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathParameterMiddleware.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/RegexRouteMatcher-0.5.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegexRouteMatcher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Router-0.5.0/Source/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/Router-0.5.0/Source/RouterBuilder.swift" /* RouterBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterBuilder.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncClient.swift" /* AsyncClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncClient.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncMiddleware.swift" /* AsyncMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncMiddleware.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/S4-0.4.0/Sources/AsyncResponder.swift" /* AsyncResponder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncResponder.swift; sourceTree = "<group>"; };
@@ -221,7 +391,10 @@
 		"__PBXFileRef_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/String-0.5.0/Source/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/URITemplate-1.3.5/Sources/URITemplate.swift" /* URITemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URITemplate.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredData.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieRouteMatcher.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/URI-0.5.0/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/Swifton/Controller.swift /* Controller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/Swifton/CookiesMiddleware.swift /* CookiesMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookiesMiddleware.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Sources/Swifton/CustomMiddleware.swift /* CustomMiddleware.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMiddleware.swift; sourceTree = "<group>"; };
@@ -243,13 +416,22 @@
 		__PBXFileRef_Tests/Swifton/TestModel.swift /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		__PBXFileRef_Tests/Swifton/TestModelsController.swift /* TestModelsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModelsController.swift; sourceTree = "<group>"; };
 		"_____Product_C7" /* libC7.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libC7.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_CURIParser" /* libCURIParser.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libCURIParser.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_HTTP" /* libHTTP.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libHTTP.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_MediaType" /* libMediaType.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libMediaType.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_POSIXRegex" /* libPOSIXRegex.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPOSIXRegex.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_PathKit" /* libPathKit.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPathKit.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libPathParameterMiddleware.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libRegexRouteMatcher.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_Router" /* libRouter.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libRouter.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_S4" /* libS4.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libS4.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Stencil" /* libStencil.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libStencil.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_String" /* libString.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libString.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_StructuredData" /* libStructuredData.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libStructuredData.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_Swifton" /* libSwifton.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libSwifton.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		"_____Product_SwiftonTestSuite" /* SwiftonTestSuite.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; name = SwiftonTestSuite.xctest; path = Swifton.testsuite.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		"_____Product_URITemplate" /* libURITemplate.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libURITemplate.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libTrieRouteMatcher.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		"_____Product_URI" /* libURI.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; path = libURI.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -260,10 +442,100 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		"___LinkPhase_CURIParser" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_HTTP" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA7101CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA7111CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA7121CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA7131CC8524D0025C12F /* libString.dylib in Frameworks */,
+				_LinkFileRef_S4 /* libS4.dylib in Frameworks */,
+				_LinkFileRef_URI /* libURI.dylib in Frameworks */,
+				_LinkFileRef_MediaType /* libMediaType.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_MediaType" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA70D1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				_LinkFileRef_StructuredData /* libStructuredData.dylib in Frameworks */,
+				_LinkFileRef_String /* libString.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_POSIXRegex" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA70B1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		"___LinkPhase_PathKit" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_PathParameterMiddleware" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA7141CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA7151CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA7161CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA7171CC8524D0025C12F /* libString.dylib in Frameworks */,
+				149FA7181CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA7191CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA71A1CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				_LinkFileRef_HTTP /* libHTTP.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_RegexRouteMatcher" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA71B1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA71C1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA71D1CC8524D0025C12F /* libString.dylib in Frameworks */,
+				149FA71E1CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA71F1CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA7201CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				149FA7211CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				_LinkFileRef_PathParameterMiddleware /* libPathParameterMiddleware.dylib in Frameworks */,
+				149FA7221CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				_LinkFileRef_POSIXRegex /* libPOSIXRegex.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_Router" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA72C1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA72D1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA72E1CC8524D0025C12F /* libString.dylib in Frameworks */,
+				149FA72F1CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA7301CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA7311CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				149FA7321CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA7331CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
+				149FA7341CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				149FA7351CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
+				_LinkFileRef_TrieRouteMatcher /* libTrieRouteMatcher.dylib in Frameworks */,
+				_LinkFileRef_RegexRouteMatcher /* libRegexRouteMatcher.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,15 +562,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		"___LinkPhase_StructuredData" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA70C1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		"___LinkPhase_Swifton" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				14AC13871CC81C580008E5C9 /* libC7.dylib in Frameworks */,
-				14AC13881CC81C580008E5C9 /* libPathKit.dylib in Frameworks */,
-				_LinkFileRef_URITemplate /* libURITemplate.dylib in Frameworks */,
-				_LinkFileRef_S4 /* libS4.dylib in Frameworks */,
-				_LinkFileRef_String /* libString.dylib in Frameworks */,
+				149FA7361CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA7371CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA7381CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA7391CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				149FA73A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
+				149FA73B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				149FA73C1CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
+				149FA73D1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */,
+				149FA73E1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */,
+				149FA73F1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA7401CC8524D0025C12F /* libPathKit.dylib in Frameworks */,
+				_LinkFileRef_Router /* libRouter.dylib in Frameworks */,
+				149FA7411CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA7421CC8524D0025C12F /* libString.dylib in Frameworks */,
 				_LinkFileRef_Stencil /* libStencil.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -307,20 +596,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				14AC13891CC81C580008E5C9 /* libC7.dylib in Frameworks */,
-				14AC138A1CC81C580008E5C9 /* libPathKit.dylib in Frameworks */,
-				14AC138B1CC81C580008E5C9 /* libURITemplate.dylib in Frameworks */,
-				14AC138C1CC81C580008E5C9 /* libS4.dylib in Frameworks */,
-				14AC138D1CC81C580008E5C9 /* libString.dylib in Frameworks */,
-				14AC138E1CC81C580008E5C9 /* libStencil.dylib in Frameworks */,
+				149FA7431CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA7441CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA7451CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA7461CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				149FA7471CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
+				149FA7481CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				149FA7491CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
+				149FA74A1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */,
+				149FA74B1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */,
+				149FA74C1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA74D1CC8524D0025C12F /* libPathKit.dylib in Frameworks */,
+				149FA74E1CC8524D0025C12F /* libRouter.dylib in Frameworks */,
+				149FA74F1CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA7501CC8524D0025C12F /* libString.dylib in Frameworks */,
+				149FA7511CC8524D0025C12F /* libStencil.dylib in Frameworks */,
 				_LinkFileRef_Swifton /* libSwifton.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		"___LinkPhase_URITemplate" /* Frameworks */ = {
+		"___LinkPhase_TrieRouteMatcher" /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				149FA7231CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				149FA7241CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
+				149FA7251CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
+				149FA7261CC8524D0025C12F /* libString.dylib in Frameworks */,
+				149FA7271CC8524D0025C12F /* libS4.dylib in Frameworks */,
+				149FA7281CC8524D0025C12F /* libURI.dylib in Frameworks */,
+				149FA7291CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				149FA72A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
+				149FA72B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		"___LinkPhase_URI" /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				149FA70E1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				_LinkFileRef_CURIParser /* libCURIParser.dylib in Frameworks */,
+				149FA70F1CC8524D0025C12F /* libString.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,7 +652,16 @@
 				"_______Group_String" /* String */,
 				"_______Group_C7" /* C7 */,
 				"_______Group_S4" /* S4 */,
-				"_______Group_URITemplate" /* URITemplate */,
+				"_______Group_POSIXRegex" /* POSIXRegex */,
+				"_______Group_StructuredData" /* StructuredData */,
+				"_______Group_MediaType" /* MediaType */,
+				"_______Group_CURIParser" /* CURIParser */,
+				"_______Group_URI" /* URI */,
+				"_______Group_HTTP" /* HTTP */,
+				"_______Group_PathParameterMiddleware" /* PathParameterMiddleware */,
+				"_______Group_RegexRouteMatcher" /* RegexRouteMatcher */,
+				"_______Group_TrieRouteMatcher" /* TrieRouteMatcher */,
+				"_______Group_Router" /* Router */,
 			);
 			name = Dependencies;
 			sourceTree = "<group>";
@@ -368,7 +694,16 @@
 				"_____Product_String" /* libString.dylib */,
 				"_____Product_C7" /* libC7.dylib */,
 				"_____Product_S4" /* libS4.dylib */,
-				"_____Product_URITemplate" /* libURITemplate.dylib */,
+				"_____Product_POSIXRegex" /* libPOSIXRegex.dylib */,
+				"_____Product_StructuredData" /* libStructuredData.dylib */,
+				"_____Product_MediaType" /* libMediaType.dylib */,
+				"_____Product_CURIParser" /* libCURIParser.dylib */,
+				"_____Product_URI" /* libURI.dylib */,
+				"_____Product_HTTP" /* libHTTP.dylib */,
+				"_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */,
+				"_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */,
+				"_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */,
+				"_____Product_Router" /* libRouter.dylib */,
 				"_____Product_Swifton" /* libSwifton.dylib */,
 			);
 			name = Products;
@@ -411,6 +746,50 @@
 			path = "Packages/C7-0.5.0/Sources";
 			sourceTree = "<group>";
 		};
+		"_______Group_CURIParser" /* CURIParser */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */,
+			);
+			name = CURIParser;
+			path = "Packages/CURIParser-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_HTTP" /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */,
+			);
+			name = HTTP;
+			path = "Packages/HTTP-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_MediaType" /* MediaType */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift */,
+			);
+			name = MediaType;
+			path = "Packages/MediaType-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift */,
+			);
+			name = POSIXRegex;
+			path = "Packages/POSIXRegex-0.5.0/Source";
+			sourceTree = "<group>";
+		};
 		"_______Group_PathKit" /* PathKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -418,6 +797,34 @@
 			);
 			name = PathKit;
 			path = "Packages/PathKit-0.6.3/Sources";
+			sourceTree = "<group>";
+		};
+		"_______Group_PathParameterMiddleware" /* PathParameterMiddleware */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/PathParameterMiddleware-0.5.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift */,
+			);
+			name = PathParameterMiddleware;
+			path = "Packages/PathParameterMiddleware-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_RegexRouteMatcher" /* RegexRouteMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/RegexRouteMatcher-0.5.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift */,
+			);
+			name = RegexRouteMatcher;
+			path = "Packages/RegexRouteMatcher-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_Router" /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/Router-0.5.0/Source/Router.swift" /* Router.swift */,
+				"__PBXFileRef_Packages/Router-0.5.0/Source/RouterBuilder.swift" /* RouterBuilder.swift */,
+			);
+			name = Router;
+			path = "Packages/Router-0.5.0/Source";
 			sourceTree = "<group>";
 		};
 		"_______Group_S4" /* S4 */ = {
@@ -483,6 +890,15 @@
 			path = "Packages/String-0.5.0/Source";
 			sourceTree = "<group>";
 		};
+		"_______Group_StructuredData" /* StructuredData */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift */,
+			);
+			name = StructuredData;
+			path = "Packages/StructuredData-0.5.0/Sources";
+			sourceTree = "<group>";
+		};
 		"_______Group_Swifton" /* Swifton */ = {
 			isa = PBXGroup;
 			children = (
@@ -519,13 +935,23 @@
 			path = Tests/Swifton;
 			sourceTree = "<group>";
 		};
-		"_______Group_URITemplate" /* URITemplate */ = {
+		"_______Group_TrieRouteMatcher" /* TrieRouteMatcher */ = {
 			isa = PBXGroup;
 			children = (
-				"__PBXFileRef_Packages/URITemplate-1.3.5/Sources/URITemplate.swift" /* URITemplate.swift */,
+				"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift */,
+				"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */,
 			);
-			name = URITemplate;
-			path = "Packages/URITemplate-1.3.5/Sources";
+			name = TrieRouteMatcher;
+			path = "Packages/TrieRouteMatcher-0.5.0/Source";
+			sourceTree = "<group>";
+		};
+		"_______Group_URI" /* URI */ = {
+			isa = PBXGroup;
+			children = (
+				"__PBXFileRef_Packages/URI-0.5.0/Sources/URI.swift" /* URI.swift */,
+			);
+			name = URI;
+			path = "Packages/URI-0.5.0/Sources";
 			sourceTree = "<group>";
 		};
 		"_______Tests_" /* Tests */ = {
@@ -555,6 +981,81 @@
 			productReference = "_____Product_C7" /* libC7.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		"______Target_CURIParser" /* CURIParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_CURIParser" /* Build configuration list for PBXNativeTarget "CURIParser" */;
+			buildPhases = (
+				CompilePhase_CURIParser /* Sources */,
+				"___LinkPhase_CURIParser" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CURIParser;
+			productName = CURIParser;
+			productReference = "_____Product_CURIParser" /* libCURIParser.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_HTTP" /* HTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_HTTP" /* Build configuration list for PBXNativeTarget "HTTP" */;
+			buildPhases = (
+				CompilePhase_HTTP /* Sources */,
+				"___LinkPhase_HTTP" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+			);
+			name = HTTP;
+			productName = HTTP;
+			productReference = "_____Product_HTTP" /* libHTTP.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_MediaType" /* MediaType */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_MediaType" /* Build configuration list for PBXNativeTarget "MediaType" */;
+			buildPhases = (
+				CompilePhase_MediaType /* Sources */,
+				"___LinkPhase_MediaType" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+			);
+			name = MediaType;
+			productName = MediaType;
+			productReference = "_____Product_MediaType" /* libMediaType.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_POSIXRegex" /* POSIXRegex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */;
+			buildPhases = (
+				CompilePhase_POSIXRegex /* Sources */,
+				"___LinkPhase_POSIXRegex" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = POSIXRegex;
+			productName = POSIXRegex;
+			productReference = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		"______Target_PathKit" /* PathKit */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = "_______Confs_PathKit" /* Build configuration list for PBXNativeTarget "PathKit" */;
@@ -569,6 +1070,84 @@
 			name = PathKit;
 			productName = PathKit;
 			productReference = "_____Product_PathKit" /* libPathKit.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_PathParameterMiddleware" /* PathParameterMiddleware */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_PathParameterMiddleware" /* Build configuration list for PBXNativeTarget "PathParameterMiddleware" */;
+			buildPhases = (
+				CompilePhase_PathParameterMiddleware /* Sources */,
+				"___LinkPhase_PathParameterMiddleware" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+			);
+			name = PathParameterMiddleware;
+			productName = PathParameterMiddleware;
+			productReference = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_RegexRouteMatcher" /* RegexRouteMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_RegexRouteMatcher" /* Build configuration list for PBXNativeTarget "RegexRouteMatcher" */;
+			buildPhases = (
+				CompilePhase_RegexRouteMatcher /* Sources */,
+				"___LinkPhase_RegexRouteMatcher" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+			);
+			name = RegexRouteMatcher;
+			productName = RegexRouteMatcher;
+			productReference = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_Router" /* Router */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_Router" /* Build configuration list for PBXNativeTarget "Router" */;
+			buildPhases = (
+				CompilePhase_Router /* Sources */,
+				"___LinkPhase_Router" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
+			);
+			name = Router;
+			productName = Router;
+			productReference = "_____Product_Router" /* libRouter.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 		"______Target_S4" /* S4 */ = {
@@ -621,6 +1200,23 @@
 			productReference = "_____Product_String" /* libString.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		"______Target_StructuredData" /* StructuredData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_StructuredData" /* Build configuration list for PBXNativeTarget "StructuredData" */;
+			buildPhases = (
+				CompilePhase_StructuredData /* Sources */,
+				"___LinkPhase_StructuredData" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+			);
+			name = StructuredData;
+			productName = StructuredData;
+			productReference = "_____Product_StructuredData" /* libStructuredData.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
 		"______Target_Swifton" /* Swifton */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = "_______Confs_Swifton" /* Build configuration list for PBXNativeTarget "Swifton" */;
@@ -631,9 +1227,18 @@
 			buildRules = (
 			);
 			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
 				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_PathKit /* PBXTargetDependency */,
-				__Dependency_URITemplate /* PBXTargetDependency */,
+				__Dependency_Router /* PBXTargetDependency */,
 				__Dependency_S4 /* PBXTargetDependency */,
 				__Dependency_String /* PBXTargetDependency */,
 				__Dependency_Stencil /* PBXTargetDependency */,
@@ -653,9 +1258,18 @@
 			buildRules = (
 			);
 			dependencies = (
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
+				__Dependency_POSIXRegex /* PBXTargetDependency */,
+				__Dependency_TrieRouteMatcher /* PBXTargetDependency */,
+				__Dependency_RegexRouteMatcher /* PBXTargetDependency */,
 				__Dependency_C7 /* PBXTargetDependency */,
 				__Dependency_PathKit /* PBXTargetDependency */,
-				__Dependency_URITemplate /* PBXTargetDependency */,
+				__Dependency_Router /* PBXTargetDependency */,
 				__Dependency_S4 /* PBXTargetDependency */,
 				__Dependency_String /* PBXTargetDependency */,
 				__Dependency_Stencil /* PBXTargetDependency */,
@@ -666,20 +1280,48 @@
 			productReference = "_____Product_SwiftonTestSuite" /* SwiftonTestSuite.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		"______Target_URITemplate" /* URITemplate */ = {
+		"______Target_TrieRouteMatcher" /* TrieRouteMatcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = "_______Confs_URITemplate" /* Build configuration list for PBXNativeTarget "URITemplate" */;
+			buildConfigurationList = "_______Confs_TrieRouteMatcher" /* Build configuration list for PBXNativeTarget "TrieRouteMatcher" */;
 			buildPhases = (
-				CompilePhase_URITemplate /* Sources */,
-				"___LinkPhase_URITemplate" /* Frameworks */,
+				CompilePhase_TrieRouteMatcher /* Sources */,
+				"___LinkPhase_TrieRouteMatcher" /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_StructuredData /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+				__Dependency_S4 /* PBXTargetDependency */,
+				__Dependency_URI /* PBXTargetDependency */,
+				__Dependency_MediaType /* PBXTargetDependency */,
+				__Dependency_PathParameterMiddleware /* PBXTargetDependency */,
+				__Dependency_HTTP /* PBXTargetDependency */,
 			);
-			name = URITemplate;
-			productName = URITemplate;
-			productReference = "_____Product_URITemplate" /* libURITemplate.dylib */;
+			name = TrieRouteMatcher;
+			productName = TrieRouteMatcher;
+			productReference = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		"______Target_URI" /* URI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = "_______Confs_URI" /* Build configuration list for PBXNativeTarget "URI" */;
+			buildPhases = (
+				CompilePhase_URI /* Sources */,
+				"___LinkPhase_URI" /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				__Dependency_C7 /* PBXTargetDependency */,
+				__Dependency_CURIParser /* PBXTargetDependency */,
+				__Dependency_String /* PBXTargetDependency */,
+			);
+			name = URI;
+			productName = URI;
+			productReference = "_____Product_URI" /* libURI.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
 /* End PBXNativeTarget section */
@@ -707,7 +1349,16 @@
 				"______Target_String" /* String */,
 				"______Target_C7" /* C7 */,
 				"______Target_S4" /* S4 */,
-				"______Target_URITemplate" /* URITemplate */,
+				"______Target_POSIXRegex" /* POSIXRegex */,
+				"______Target_StructuredData" /* StructuredData */,
+				"______Target_MediaType" /* MediaType */,
+				"______Target_CURIParser" /* CURIParser */,
+				"______Target_URI" /* URI */,
+				"______Target_HTTP" /* HTTP */,
+				"______Target_PathParameterMiddleware" /* PathParameterMiddleware */,
+				"______Target_RegexRouteMatcher" /* RegexRouteMatcher */,
+				"______Target_TrieRouteMatcher" /* TrieRouteMatcher */,
+				"______Target_Router" /* Router */,
 				"______Target_Swifton" /* Swifton */,
 				"______Target_SwiftonTestSuite" /* Swifton.testsuite */,
 			);
@@ -743,11 +1394,76 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CompilePhase_CURIParser /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_HTTP /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_MediaType /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_POSIXRegex /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CompilePhase_PathKit /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
 				"__src_cc_ref_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_PathParameterMiddleware /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/PathParameterMiddleware-0.5.0/Source/PathParameterMiddleware.swift" /* PathParameterMiddleware.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_RegexRouteMatcher /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/RegexRouteMatcher-0.5.0/Source/RegexRouteMatcher.swift" /* RegexRouteMatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_Router /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/Router-0.5.0/Source/Router.swift" /* Router.swift in Sources */,
+				"__src_cc_ref_Packages/Router-0.5.0/Source/RouterBuilder.swift" /* RouterBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -811,6 +1527,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CompilePhase_StructuredData /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CompilePhase_Swifton /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
@@ -845,11 +1569,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CompilePhase_URITemplate /* Sources */ = {
+		CompilePhase_TrieRouteMatcher /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				"__src_cc_ref_Packages/URITemplate-1.3.5/Sources/URITemplate.swift" /* URITemplate.swift in Sources */,
+				"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift in Sources */,
+				"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CompilePhase_URI /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				"__src_cc_ref_Packages/URI-0.5.0/Sources/URI.swift" /* URI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -859,37 +1592,82 @@
 		__Dependency_C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_C7" /* C7 */;
-			targetProxy = 14AC13901CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7531CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_CURIParser /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_CURIParser" /* CURIParser */;
+			targetProxy = 149FA7561CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_HTTP /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_HTTP" /* HTTP */;
+			targetProxy = 149FA75A1CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_MediaType /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_MediaType" /* MediaType */;
+			targetProxy = 149FA7591CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_POSIXRegex /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_POSIXRegex" /* POSIXRegex */;
+			targetProxy = 149FA75C1CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathKit /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathKit" /* PathKit */;
-			targetProxy = 14AC138F1CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7521CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_PathParameterMiddleware /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_PathParameterMiddleware" /* PathParameterMiddleware */;
+			targetProxy = 149FA75B1CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_RegexRouteMatcher /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_RegexRouteMatcher" /* RegexRouteMatcher */;
+			targetProxy = 149FA75E1CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_Router /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_Router" /* Router */;
+			targetProxy = 149FA75F1CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 		__Dependency_S4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_S4" /* S4 */;
-			targetProxy = 14AC13921CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7571CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 		__Dependency_Stencil /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Stencil" /* Stencil */;
-			targetProxy = 14AC13941CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7601CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 		__Dependency_String /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_String" /* String */;
-			targetProxy = 14AC13931CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7551CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_StructuredData /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_StructuredData" /* StructuredData */;
+			targetProxy = 149FA7541CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 		__Dependency_Swifton /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Swifton" /* Swifton */;
-			targetProxy = 14AC13951CC81C580008E5C9 /* PBXContainerItemProxy */;
+			targetProxy = 149FA7611CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
-		__Dependency_URITemplate /* PBXTargetDependency */ = {
+		__Dependency_TrieRouteMatcher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "______Target_URITemplate" /* URITemplate */;
-			targetProxy = 14AC13911CC81C580008E5C9 /* PBXContainerItemProxy */;
+			target = "______Target_TrieRouteMatcher" /* TrieRouteMatcher */;
+			targetProxy = 149FA75D1CC8524E0025C12F /* PBXContainerItemProxy */;
+		};
+		__Dependency_URI /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "______Target_URI" /* URI */;
+			targetProxy = 149FA7581CC8524E0025C12F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -910,6 +1688,71 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_CURIParser /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CURIParser;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_HTTP /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = HTTP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_MediaType /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = MediaType;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_POSIXRegex /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = POSIXRegex;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		_ReleaseConf_PathKit /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -922,6 +1765,57 @@
 				OTHER_LDFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_MODULE_NAME = PathKit;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_PathParameterMiddleware /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = PathParameterMiddleware;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_RegexRouteMatcher /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = RegexRouteMatcher;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_Router /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Router;
 				PRODUCT_NAME = "lib$(TARGET_NAME)";
 			};
 			name = Release;
@@ -974,12 +1868,29 @@
 			};
 			name = Release;
 		};
+		_ReleaseConf_StructuredData /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = StructuredData;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		_ReleaseConf_Swifton /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
 				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
@@ -995,6 +1906,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
@@ -1005,18 +1917,36 @@
 			};
 			name = Release;
 		};
-		_ReleaseConf_URITemplate /* Release */ = {
+		_ReleaseConf_TrieRouteMatcher /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
 				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_MODULE_NAME = URITemplate;
+				PRODUCT_MODULE_NAME = TrieRouteMatcher;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		_ReleaseConf_URI /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = URI;
 				PRODUCT_NAME = "lib$(TARGET_NAME)";
 			};
 			name = Release;
@@ -1038,6 +1968,75 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_CURIParser" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = CURIParser;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_HTTP" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = HTTP;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_MediaType" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = MediaType;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_POSIXRegex" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = POSIXRegex;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
 		"___DebugConf_PathKit" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1050,6 +2049,60 @@
 				OTHER_LDFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_MODULE_NAME = PathKit;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_PathParameterMiddleware" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = PathParameterMiddleware;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_RegexRouteMatcher" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = RegexRouteMatcher;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_Router" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = Router;
 				PRODUCT_NAME = "lib$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1106,12 +2159,30 @@
 			};
 			name = Debug;
 		};
+		"___DebugConf_StructuredData" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = StructuredData;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
 		"___DebugConf_Swifton" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
 				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
@@ -1128,6 +2199,7 @@
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
@@ -1139,18 +2211,37 @@
 			};
 			name = Debug;
 		};
-		"___DebugConf_URITemplate" /* Debug */ = {
+		"___DebugConf_TrieRouteMatcher" /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
 				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
 				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
 				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				OTHER_CFLAGS = "";
 				OTHER_LDFLAGS = "";
 				OTHER_SWIFT_FLAGS = "-DXcode";
-				PRODUCT_MODULE_NAME = URITemplate;
+				PRODUCT_MODULE_NAME = TrieRouteMatcher;
+				PRODUCT_NAME = "lib$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		"___DebugConf_URI" /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_INSTALL_NAME_BASE = "$(CONFIGURATION_BUILD_DIR)";
+				ENABLE_TESTABILITY = YES;
+				HEADER_SEARCH_PATHS = "/Users/necolt/workspace/Swifton/Packages/CURIParser-0.5.0/Sources/include";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_MODULE_NAME = URI;
 				PRODUCT_NAME = "lib$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -1189,11 +2280,74 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		"_______Confs_CURIParser" /* Build configuration list for PBXNativeTarget "CURIParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_CURIParser" /* Debug */,
+				_ReleaseConf_CURIParser /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_HTTP" /* Build configuration list for PBXNativeTarget "HTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_HTTP" /* Debug */,
+				_ReleaseConf_HTTP /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_MediaType" /* Build configuration list for PBXNativeTarget "MediaType" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_MediaType" /* Debug */,
+				_ReleaseConf_MediaType /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_POSIXRegex" /* Build configuration list for PBXNativeTarget "POSIXRegex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_POSIXRegex" /* Debug */,
+				_ReleaseConf_POSIXRegex /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		"_______Confs_PathKit" /* Build configuration list for PBXNativeTarget "PathKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				"___DebugConf_PathKit" /* Debug */,
 				_ReleaseConf_PathKit /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_PathParameterMiddleware" /* Build configuration list for PBXNativeTarget "PathParameterMiddleware" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_PathParameterMiddleware" /* Debug */,
+				_ReleaseConf_PathParameterMiddleware /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_RegexRouteMatcher" /* Build configuration list for PBXNativeTarget "RegexRouteMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_RegexRouteMatcher" /* Debug */,
+				_ReleaseConf_RegexRouteMatcher /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_Router" /* Build configuration list for PBXNativeTarget "Router" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_Router" /* Debug */,
+				_ReleaseConf_Router /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
@@ -1225,6 +2379,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
+		"_______Confs_StructuredData" /* Build configuration list for PBXNativeTarget "StructuredData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_StructuredData" /* Debug */,
+				_ReleaseConf_StructuredData /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
 		"_______Confs_Swifton" /* Build configuration list for PBXNativeTarget "Swifton" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1243,11 +2406,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		"_______Confs_URITemplate" /* Build configuration list for PBXNativeTarget "URITemplate" */ = {
+		"_______Confs_TrieRouteMatcher" /* Build configuration list for PBXNativeTarget "TrieRouteMatcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				"___DebugConf_URITemplate" /* Debug */,
-				_ReleaseConf_URITemplate /* Release */,
+				"___DebugConf_TrieRouteMatcher" /* Debug */,
+				_ReleaseConf_TrieRouteMatcher /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		"_______Confs_URI" /* Build configuration list for PBXNativeTarget "URI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				"___DebugConf_URI" /* Debug */,
+				_ReleaseConf_URI /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
