@@ -7,77 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		149FA70B1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA70C1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA70D1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA70E1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA70F1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7101CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7111CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA7121CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA7131CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7141CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7151CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA7161CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA7171CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7181CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA7191CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA71A1CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA71B1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA71C1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA71D1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA71E1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA71F1CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA7201CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA7211CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7221CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
-		149FA7231CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7241CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA7251CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA7261CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7271CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA7281CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA7291CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA72A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
-		149FA72B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
-		149FA72C1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA72D1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA72E1CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA72F1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA7301CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA7311CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA7321CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7331CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
-		149FA7341CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
-		149FA7351CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
-		149FA7361CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA7371CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA7381CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA7391CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA73A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
-		149FA73B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
-		149FA73C1CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
-		149FA73D1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
-		149FA73E1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
-		149FA73F1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA7401CC8524D0025C12F /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
-		149FA7411CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA7421CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7431CC8524D0025C12F /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
-		149FA7441CC8524D0025C12F /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
-		149FA7451CC8524D0025C12F /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
-		149FA7461CC8524D0025C12F /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
-		149FA7471CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
-		149FA7481CC8524D0025C12F /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
-		149FA7491CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
-		149FA74A1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
-		149FA74B1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
-		149FA74C1CC8524D0025C12F /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
-		149FA74D1CC8524D0025C12F /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
-		149FA74E1CC8524D0025C12F /* libRouter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* libRouter.dylib */; };
-		149FA74F1CC8524D0025C12F /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
-		149FA7501CC8524D0025C12F /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
-		149FA7511CC8524D0025C12F /* libStencil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Stencil" /* libStencil.dylib */; };
+		148B48DD1CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48DE1CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48DF1CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48E01CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48E11CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B48E21CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48E31CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B48E41CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B48E51CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B48E61CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48E71CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B48E81CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B48E91CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B48EA1CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B48EB1CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B48EC1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B48ED1CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B48EE1CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B48EF1CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B48F01CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B48F11CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B48F21CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B48F31CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48F41CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		148B48F51CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B48F61CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B48F71CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B48F81CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B48F91CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B48FA1CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B48FB1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B48FC1CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		148B48FD1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		148B48FE1CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B48FF1CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B49001CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B49011CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B49021CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B49031CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B49041CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B49051CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		148B49061CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		148B49071CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		148B49081CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B49091CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B490A1CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B490B1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B490C1CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		148B490D1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		148B490E1CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		148B490F1CD7D41C001C22B1 /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
+		148B49101CD7D41C001C22B1 /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
+		148B49111CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B49121CD7D41C001C22B1 /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
+		148B49131CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B49141CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B49151CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
+		148B49161CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_StructuredData" /* libStructuredData.dylib */; };
+		148B49171CD7D41C001C22B1 /* libURI.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_URI" /* libURI.dylib */; };
+		148B49181CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_MediaType" /* libMediaType.dylib */; };
+		148B49191CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathParameterMiddleware" /* libPathParameterMiddleware.dylib */; };
+		148B491A1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
+		148B491B1CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_POSIXRegex" /* libPOSIXRegex.dylib */; };
+		148B491C1CD7D41C001C22B1 /* libTrieRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_TrieRouteMatcher" /* libTrieRouteMatcher.dylib */; };
+		148B491D1CD7D41C001C22B1 /* libRegexRouteMatcher.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_RegexRouteMatcher" /* libRegexRouteMatcher.dylib */; };
+		148B491E1CD7D41C001C22B1 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
+		148B491F1CD7D41C001C22B1 /* libPathKit.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_PathKit" /* libPathKit.dylib */; };
+		148B49201CD7D41C001C22B1 /* libRouter.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Router" /* libRouter.dylib */; };
+		148B49211CD7D41C001C22B1 /* libS4.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_S4" /* libS4.dylib */; };
+		148B49221CD7D41C001C22B1 /* libString.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_String" /* libString.dylib */; };
+		148B49231CD7D41C001C22B1 /* libStencil.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_Stencil" /* libStencil.dylib */; };
 		_LinkFileRef_C7 /* libC7.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_C7" /* libC7.dylib */; };
 		_LinkFileRef_CURIParser /* libCURIParser.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_CURIParser" /* libCURIParser.dylib */; };
 		_LinkFileRef_HTTP /* libHTTP.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = "_____Product_HTTP" /* libHTTP.dylib */; };
@@ -116,15 +116,15 @@
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */; };
 		"__src_cc_ref_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */; };
 		"__src_cc_ref_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */; };
-		"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Cookie.swift" /* Cookie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Cookie.swift" /* Cookie.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/HTTP.swift" /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/HTTP.swift" /* HTTP.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/HeaderValues.swift" /* HeaderValues.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Headers.swift" /* Headers.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Headers.swift" /* Headers.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Message.swift" /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Message.swift" /* Message.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Request.swift" /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Request.swift" /* Request.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Response.swift" /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Response.swift" /* Response.swift */; };
+		"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Router.swift" /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/HTTP-0.5.1/Sources/Router.swift" /* Router.swift */; };
 		"__src_cc_ref_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift */; };
 		"__src_cc_ref_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift */; };
 		"__src_cc_ref_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift */; };
@@ -170,7 +170,7 @@
 		"__src_cc_ref_Packages/Stencil-0.5.5/Sources/TemplateLoader.swift" /* TemplateLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Stencil-0.5.5/Sources/TemplateLoader.swift" /* TemplateLoader.swift */; };
 		"__src_cc_ref_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift */; };
 		"__src_cc_ref_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift */; };
-		"__src_cc_ref_Packages/String-0.5.0/Source/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/String-0.5.0/Source/String.swift" /* String.swift */; };
+		"__src_cc_ref_Packages/String-0.5.1/Source/String.swift" /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/String-0.5.1/Source/String.swift" /* String.swift */; };
 		"__src_cc_ref_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift */; };
 		"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift */; };
 		"__src_cc_ref_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = "__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */; };
@@ -198,112 +198,112 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		149FA7521CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49241CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathKit";
 			remoteInfo = PathKit;
 		};
-		149FA7531CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49251CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_C7";
 			remoteInfo = C7;
 		};
-		149FA7541CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49261CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_StructuredData";
 			remoteInfo = StructuredData;
 		};
-		149FA7551CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49271CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_String";
 			remoteInfo = String;
 		};
-		149FA7561CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49281CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_CURIParser";
 			remoteInfo = CURIParser;
 		};
-		149FA7571CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49291CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_S4";
 			remoteInfo = S4;
 		};
-		149FA7581CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492A1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_URI";
 			remoteInfo = URI;
 		};
-		149FA7591CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492B1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_MediaType";
 			remoteInfo = MediaType;
 		};
-		149FA75A1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492C1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_HTTP";
 			remoteInfo = HTTP;
 		};
-		149FA75B1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492D1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_PathParameterMiddleware";
 			remoteInfo = PathParameterMiddleware;
 		};
-		149FA75C1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492E1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_POSIXRegex";
 			remoteInfo = POSIXRegex;
 		};
-		149FA75D1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B492F1CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_TrieRouteMatcher";
 			remoteInfo = TrieRouteMatcher;
 		};
-		149FA75E1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49301CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_RegexRouteMatcher";
 			remoteInfo = RegexRouteMatcher;
 		};
-		149FA75F1CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49311CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Router";
 			remoteInfo = Router;
 		};
-		149FA7601CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49321CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "______Target_Stencil";
 			remoteInfo = Stencil;
 		};
-		149FA7611CC8524E0025C12F /* PBXContainerItemProxy */ = {
+		148B49331CD7D41C001C22B1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = __RootObject_ /* Project object */;
 			proxyType = 1;
@@ -336,15 +336,15 @@
 		"__PBXFileRef_Packages/C7-0.5.0/Sources/URI.swift" /* URI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URI.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/C7-0.5.0/Sources/URIConnection.swift" /* URIConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URIConnection.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/CURIParser-0.5.0/Sources/uri_parser.c" /* uri_parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = uri_parser.c; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedCookie.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValues.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedCookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Cookie.swift" /* Cookie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cookie.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/HTTP.swift" /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/HeaderValues.swift" /* HeaderValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderValues.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Headers.swift" /* Headers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Headers.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Message.swift" /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Request.swift" /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Response.swift" /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Router.swift" /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/MediaType-0.5.0/Source/MediaType.swift" /* MediaType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaType.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/POSIXRegex-0.5.0/Source/Regex.swift" /* Regex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regex.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/PathKit-0.6.3/Sources/PathKit.swift" /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
@@ -390,7 +390,7 @@
 		"__PBXFileRef_Packages/Stencil-0.5.5/Sources/TemplateLoader.swift" /* TemplateLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateLoader.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Stencil-0.5.5/Sources/Tokenizer.swift" /* Tokenizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tokenizer.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/Stencil-0.5.5/Sources/Variable.swift" /* Variable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variable.swift; sourceTree = "<group>"; };
-		"__PBXFileRef_Packages/String-0.5.0/Source/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		"__PBXFileRef_Packages/String-0.5.1/Source/String.swift" /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/StructuredData-0.5.0/Sources/StructuredData.swift" /* StructuredData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructuredData.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/Trie.swift" /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
 		"__PBXFileRef_Packages/TrieRouteMatcher-0.5.0/Source/TrieRouteMatcher.swift" /* TrieRouteMatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrieRouteMatcher.swift; sourceTree = "<group>"; };
@@ -453,10 +453,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA7101CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA7111CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA7121CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA7131CC8524D0025C12F /* libString.dylib in Frameworks */,
+				148B48E21CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B48E31CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B48E41CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B48E51CD7D41C001C22B1 /* libString.dylib in Frameworks */,
 				_LinkFileRef_S4 /* libS4.dylib in Frameworks */,
 				_LinkFileRef_URI /* libURI.dylib in Frameworks */,
 				_LinkFileRef_MediaType /* libMediaType.dylib in Frameworks */,
@@ -467,7 +467,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA70D1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				148B48DF1CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
 				_LinkFileRef_StructuredData /* libStructuredData.dylib in Frameworks */,
 				_LinkFileRef_String /* libString.dylib in Frameworks */,
 			);
@@ -477,7 +477,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA70B1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				148B48DD1CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,13 +492,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA7141CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA7151CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA7161CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA7171CC8524D0025C12F /* libString.dylib in Frameworks */,
-				149FA7181CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA7191CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA71A1CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
+				148B48E61CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B48E71CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B48E81CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B48E91CD7D41C001C22B1 /* libString.dylib in Frameworks */,
+				148B48EA1CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B48EB1CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B48EC1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
 				_LinkFileRef_HTTP /* libHTTP.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -507,15 +507,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA71B1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA71C1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA71D1CC8524D0025C12F /* libString.dylib in Frameworks */,
-				149FA71E1CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA71F1CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA7201CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
-				149FA7211CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				148B48ED1CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B48EE1CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B48EF1CD7D41C001C22B1 /* libString.dylib in Frameworks */,
+				148B48F01CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B48F11CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B48F21CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
+				148B48F31CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
 				_LinkFileRef_PathParameterMiddleware /* libPathParameterMiddleware.dylib in Frameworks */,
-				149FA7221CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				148B48F41CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */,
 				_LinkFileRef_POSIXRegex /* libPOSIXRegex.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -524,16 +524,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA72C1CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA72D1CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA72E1CC8524D0025C12F /* libString.dylib in Frameworks */,
-				149FA72F1CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA7301CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA7311CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
-				149FA7321CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA7331CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
-				149FA7341CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
-				149FA7351CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
+				148B48FE1CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B48FF1CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B49001CD7D41C001C22B1 /* libString.dylib in Frameworks */,
+				148B49011CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B49021CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B49031CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
+				148B49041CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B49051CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */,
+				148B49061CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */,
+				148B49071CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */,
 				_LinkFileRef_TrieRouteMatcher /* libTrieRouteMatcher.dylib in Frameworks */,
 				_LinkFileRef_RegexRouteMatcher /* libRegexRouteMatcher.dylib in Frameworks */,
 			);
@@ -566,7 +566,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA70C1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				148B48DE1CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -574,20 +574,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA7361CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA7371CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA7381CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA7391CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
-				149FA73A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
-				149FA73B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
-				149FA73C1CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
-				149FA73D1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */,
-				149FA73E1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */,
-				149FA73F1CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA7401CC8524D0025C12F /* libPathKit.dylib in Frameworks */,
+				148B49081CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B49091CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B490A1CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B490B1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
+				148B490C1CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */,
+				148B490D1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */,
+				148B490E1CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */,
+				148B490F1CD7D41C001C22B1 /* libTrieRouteMatcher.dylib in Frameworks */,
+				148B49101CD7D41C001C22B1 /* libRegexRouteMatcher.dylib in Frameworks */,
+				148B49111CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B49121CD7D41C001C22B1 /* libPathKit.dylib in Frameworks */,
 				_LinkFileRef_Router /* libRouter.dylib in Frameworks */,
-				149FA7411CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA7421CC8524D0025C12F /* libString.dylib in Frameworks */,
+				148B49131CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B49141CD7D41C001C22B1 /* libString.dylib in Frameworks */,
 				_LinkFileRef_Stencil /* libStencil.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -596,21 +596,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA7431CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA7441CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA7451CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA7461CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
-				149FA7471CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
-				149FA7481CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
-				149FA7491CC8524D0025C12F /* libPOSIXRegex.dylib in Frameworks */,
-				149FA74A1CC8524D0025C12F /* libTrieRouteMatcher.dylib in Frameworks */,
-				149FA74B1CC8524D0025C12F /* libRegexRouteMatcher.dylib in Frameworks */,
-				149FA74C1CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA74D1CC8524D0025C12F /* libPathKit.dylib in Frameworks */,
-				149FA74E1CC8524D0025C12F /* libRouter.dylib in Frameworks */,
-				149FA74F1CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA7501CC8524D0025C12F /* libString.dylib in Frameworks */,
-				149FA7511CC8524D0025C12F /* libStencil.dylib in Frameworks */,
+				148B49151CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B49161CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B49171CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B49181CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
+				148B49191CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */,
+				148B491A1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */,
+				148B491B1CD7D41C001C22B1 /* libPOSIXRegex.dylib in Frameworks */,
+				148B491C1CD7D41C001C22B1 /* libTrieRouteMatcher.dylib in Frameworks */,
+				148B491D1CD7D41C001C22B1 /* libRegexRouteMatcher.dylib in Frameworks */,
+				148B491E1CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B491F1CD7D41C001C22B1 /* libPathKit.dylib in Frameworks */,
+				148B49201CD7D41C001C22B1 /* libRouter.dylib in Frameworks */,
+				148B49211CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B49221CD7D41C001C22B1 /* libString.dylib in Frameworks */,
+				148B49231CD7D41C001C22B1 /* libStencil.dylib in Frameworks */,
 				_LinkFileRef_Swifton /* libSwifton.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -619,15 +619,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA7231CC8524D0025C12F /* libC7.dylib in Frameworks */,
-				149FA7241CC8524D0025C12F /* libCURIParser.dylib in Frameworks */,
-				149FA7251CC8524D0025C12F /* libStructuredData.dylib in Frameworks */,
-				149FA7261CC8524D0025C12F /* libString.dylib in Frameworks */,
-				149FA7271CC8524D0025C12F /* libS4.dylib in Frameworks */,
-				149FA7281CC8524D0025C12F /* libURI.dylib in Frameworks */,
-				149FA7291CC8524D0025C12F /* libMediaType.dylib in Frameworks */,
-				149FA72A1CC8524D0025C12F /* libPathParameterMiddleware.dylib in Frameworks */,
-				149FA72B1CC8524D0025C12F /* libHTTP.dylib in Frameworks */,
+				148B48F51CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
+				148B48F61CD7D41C001C22B1 /* libCURIParser.dylib in Frameworks */,
+				148B48F71CD7D41C001C22B1 /* libStructuredData.dylib in Frameworks */,
+				148B48F81CD7D41C001C22B1 /* libString.dylib in Frameworks */,
+				148B48F91CD7D41C001C22B1 /* libS4.dylib in Frameworks */,
+				148B48FA1CD7D41C001C22B1 /* libURI.dylib in Frameworks */,
+				148B48FB1CD7D41C001C22B1 /* libMediaType.dylib in Frameworks */,
+				148B48FC1CD7D41C001C22B1 /* libPathParameterMiddleware.dylib in Frameworks */,
+				148B48FD1CD7D41C001C22B1 /* libHTTP.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,9 +635,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				149FA70E1CC8524D0025C12F /* libC7.dylib in Frameworks */,
+				148B48E01CD7D41C001C22B1 /* libC7.dylib in Frameworks */,
 				_LinkFileRef_CURIParser /* libCURIParser.dylib in Frameworks */,
-				149FA70F1CC8524D0025C12F /* libString.dylib in Frameworks */,
+				148B48E11CD7D41C001C22B1 /* libString.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -758,18 +758,18 @@
 		"_______Group_HTTP" /* HTTP */ = {
 			isa = PBXGroup;
 			children = (
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift */,
-				"__PBXFileRef_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Cookie.swift" /* Cookie.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Headers.swift" /* Headers.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/HeaderValues.swift" /* HeaderValues.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/HTTP.swift" /* HTTP.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Message.swift" /* Message.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Request.swift" /* Request.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Response.swift" /* Response.swift */,
+				"__PBXFileRef_Packages/HTTP-0.5.1/Sources/Router.swift" /* Router.swift */,
 			);
 			name = HTTP;
-			path = "Packages/HTTP-0.5.0/Sources";
+			path = "Packages/HTTP-0.5.1/Sources";
 			sourceTree = "<group>";
 		};
 		"_______Group_MediaType" /* MediaType */ = {
@@ -884,10 +884,10 @@
 		"_______Group_String" /* String */ = {
 			isa = PBXGroup;
 			children = (
-				"__PBXFileRef_Packages/String-0.5.0/Source/String.swift" /* String.swift */,
+				"__PBXFileRef_Packages/String-0.5.1/Source/String.swift" /* String.swift */,
 			);
 			name = String;
-			path = "Packages/String-0.5.0/Source";
+			path = "Packages/String-0.5.1/Source";
 			sourceTree = "<group>";
 		};
 		"_______Group_StructuredData" /* StructuredData */ = {
@@ -1406,15 +1406,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Cookie.swift" /* Cookie.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Headers.swift" /* Headers.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/HTTP.swift" /* HTTP.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Message.swift" /* Message.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Request.swift" /* Request.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Response.swift" /* Response.swift in Sources */,
-				"__src_cc_ref_Packages/HTTP-0.5.0/Sources/Router.swift" /* Router.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/AttributedCookie.swift" /* AttributedCookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Cookie.swift" /* Cookie.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Headers.swift" /* Headers.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/HeaderValues.swift" /* HeaderValues.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/HTTP.swift" /* HTTP.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Message.swift" /* Message.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Request.swift" /* Request.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Response.swift" /* Response.swift in Sources */,
+				"__src_cc_ref_Packages/HTTP-0.5.1/Sources/Router.swift" /* Router.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1523,7 +1523,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				"__src_cc_ref_Packages/String-0.5.0/Source/String.swift" /* String.swift in Sources */,
+				"__src_cc_ref_Packages/String-0.5.1/Source/String.swift" /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1592,82 +1592,82 @@
 		__Dependency_C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_C7" /* C7 */;
-			targetProxy = 149FA7531CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49251CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_CURIParser /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_CURIParser" /* CURIParser */;
-			targetProxy = 149FA7561CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49281CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_HTTP /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_HTTP" /* HTTP */;
-			targetProxy = 149FA75A1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492C1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_MediaType /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_MediaType" /* MediaType */;
-			targetProxy = 149FA7591CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492B1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_POSIXRegex /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_POSIXRegex" /* POSIXRegex */;
-			targetProxy = 149FA75C1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492E1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathKit /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathKit" /* PathKit */;
-			targetProxy = 149FA7521CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49241CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_PathParameterMiddleware /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_PathParameterMiddleware" /* PathParameterMiddleware */;
-			targetProxy = 149FA75B1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492D1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_RegexRouteMatcher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_RegexRouteMatcher" /* RegexRouteMatcher */;
-			targetProxy = 149FA75E1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49301CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Router /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Router" /* Router */;
-			targetProxy = 149FA75F1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49311CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_S4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_S4" /* S4 */;
-			targetProxy = 149FA7571CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49291CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Stencil /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Stencil" /* Stencil */;
-			targetProxy = 149FA7601CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49321CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_String /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_String" /* String */;
-			targetProxy = 149FA7551CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49271CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_StructuredData /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_StructuredData" /* StructuredData */;
-			targetProxy = 149FA7541CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49261CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_Swifton /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_Swifton" /* Swifton */;
-			targetProxy = 149FA7611CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B49331CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_TrieRouteMatcher /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_TrieRouteMatcher" /* TrieRouteMatcher */;
-			targetProxy = 149FA75D1CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492F1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 		__Dependency_URI /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "______Target_URI" /* URI */;
-			targetProxy = 149FA7581CC8524E0025C12F /* PBXContainerItemProxy */;
+			targetProxy = 148B492A1CD7D41C001C22B1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

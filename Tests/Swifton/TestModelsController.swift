@@ -1,4 +1,4 @@
-import Swifton
+@testable import Swifton
 
 class TestModelsController: TestApplicationController {
     var testModel: TestModel?

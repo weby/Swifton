@@ -1,4 +1,4 @@
-import Swifton
+@testable import Swifton
 import S4
 import PathKit
 import XCTest
